@@ -1,0 +1,235 @@
+body {
+    background-color: rgb(59, 59, 59);
+}
+
+header {
+    height: 16vw;
+    background-color: rgb(106, 106, 106);
+    border-radius: 2vw;
+}
+
+main {
+    height: 130vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5vw
+}
+
+footer {
+    height: 8vw;
+    width: 100%;
+    border-radius: 2vw;
+    background-color: rgb(106, 106, 106);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.divtext {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    height: 80%;
+}
+
+.title_text1 {
+    background-image: url("media/splat.png");
+    background-size: contain;
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: rgb(41, 41, 41);
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.title_text2 {
+    background-image: url("media/Splash.png");
+    background-size: contain;
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: aliceblue;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.undertitle {
+    background-attachment: fixed;
+    height: 75%;
+}
+
+.intro {
+    height: 40vw;
+    width: 80%;
+    background-color: rgb(255, 128, 0);
+    border-radius: 1.25vw;
+}
+
+.introtext {
+    color: aliceblue;
+    font-size: 1.5vw;
+    margin: 3vw;
+}
+
+.intro_title {
+    height: 12vw;
+    width: 100%;
+    background-color: rgb(183, 72, 202);
+    font-size: 3vw;
+    color: aliceblue;
+    border-radius: 1.25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Octarians {
+    height: 10vw;
+    width: 56vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    background-color: magenta;
+    border-radius: 0.85vw;
+    display: flex;
+    align-content: center;
+}
+
+.Octatext {
+    color: aliceblue;
+    font-size: 4vw;
+    margin-top: 2.8vw;
+    margin-left: 7vw;
+    text-decoration: none;
+}
+
+.flavortextO {
+    color: aliceblue;
+    font-size: 1.8vw;
+    margin-top: 4.2vw;
+    margin-left: 5vw;
+    text-decoration: none;
+}
+
+.Octo_expansion {
+    height: 10vw;
+    width: 56vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    background-color: rgb(64, 224, 120);
+    border-radius: 0.85vw;
+    display: flex;
+    align-content: center;
+}
+
+.Octotext {
+    color: aliceblue;
+    font-size: 4vw;
+    margin-top: 2.5vw;
+    margin-left: 1vw
+}
+
+.flavortextE {
+    color: aliceblue;
+    font-size: 1.8vw;
+    margin-top: 4.15vw;
+    margin-left: 2vw
+}
+
+.Alterna {
+    height: 10vw;
+    width: 56vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    background-color: rgb(255, 213, 0);
+    border-radius: 0.85vw;
+    display: flex;
+    align-content: center;
+}
+
+.Alt {
+    color: rgb(41, 41, 41);
+    width: 25vw;
+    font-size: 4vw;
+    margin-top: 0.5vw;
+    margin-left: 8vw;
+}
+
+.flavortextA {
+    color: rgb(41, 41, 41);
+    font-size: 1.8vw;
+    margin-top: 4.15vw;
+    margin-left: 3vw;
+}
+
+.Side_order {
+    height: 10vw;
+    width: 56vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    background-color: rgb(255, 217, 189);
+    border-radius: 0.85vw;
+    display: flex;
+    align-content: center;
+}
+
+.Sidetext {
+    color: rgb(41, 41, 41);
+    font-size: 4vw;
+    margin-top: 3vw;
+    margin-left: 1vw;
+}
+
+.flavortextS {
+    color: rgb(41, 41, 41);
+    font-size: 1.8vw;
+    margin-top: 4.15vw;
+    margin-left: 2.5vw;
+}
+
+.Raiders {
+    height: 10vw;
+    width: 56vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    background-color: rgb(0, 208, 255);
+    border-radius: 0.85vw;
+    display: flex;
+    align-content: center;
+}
+
+.Raiderstext {
+    color: aliceblue;
+    font-size: 4vw;
+    margin-left: 4vw;
+    margin-top: 0.5vw;
+}
+
+.flavortextR {
+    color: aliceblue;
+    font-size: 1.8vw;
+    margin-left: 1vw;
+    margin-top: 3.15vw;
+}
+
+.space_05 {
+    width: 0.5vw;
+}
+
+.space_15 {
+    width: 1.5vw;
+}
+
+/* just in case I need it
+
+@media screen and (max-width:800px) {
+    
+}*/
